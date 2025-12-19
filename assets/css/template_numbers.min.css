@@ -1,0 +1,84 @@
+.m-numbers__cards {
+  margin-bottom: -2rem;
+  margin-top: 1rem;
+}
+.number-card {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.number-card__heading {
+  margin: 0;
+}
+.number-card__icon {
+  height: 83px;
+  margin-bottom: 0.6rem;
+  width: 100%;
+}
+.number-card__icon img {
+  height: 83px;
+  width: auto;
+}
+.number-card__top {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.6rem;
+}
+.number-card__number {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.number-card__suffix {
+  color: #3e3e3e;
+  font-size: 1.8rem;
+  line-height: 1;
+  margin-left: 5px;
+  position: relative;
+  top: -5px;
+}
+@media only screen and (min-width: 768px) {
+  .number-card {
+    text-align: left;
+  }
+  .number-card__top {
+    justify-content: flex-start;
+  }
+  .number-card__heading,
+  .number-card__text {
+    margin-left: 0.2rem;
+    max-width: 100%;
+    width: 152px;
+  }
+  .m-numbers__title {
+    margin-bottom: 0.5rem;
+  }
+  .m-numbers__cards {
+    margin-top: 2rem;
+  }
+  .m-numbers--aside .m-numbers__cards {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .number-card__number {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .number-card__icon {
+    height: 83px;
+    width: 100%;
+  }
+  .number-card__icon,
+  .number-card__top {
+    margin-bottom: 0.1rem;
+  }
+}
+@media only screen and (max-width: 1560px) {
+  .number-card__number {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+}

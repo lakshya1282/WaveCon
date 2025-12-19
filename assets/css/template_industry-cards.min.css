@@ -1,0 +1,94 @@
+.m-industry-cards__heading {
+  margin: 0 0 2rem;
+  text-align: center;
+}
+.industry-card {
+  margin-bottom: 1rem;
+}
+.industry-card__inner {
+  background-color: #0f4194;
+  color: #fff;
+  padding: 0;
+}
+.industry-card__link {
+  display: block;
+  position: relative;
+}
+.industry-card__visual {
+  overflow: hidden;
+  padding-bottom: 59.7014925373%;
+  position: relative;
+}
+.industry-card__visual:before {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), transparent);
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 50%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.industry-card__visual img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  transition: transform 0.3s linear;
+  width: 100%;
+}
+.industry-card__title {
+  bottom: 0;
+  color: #fff;
+  left: 0;
+  margin: 0;
+  padding: 1rem;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.industry-card__title span {
+  align-items: center;
+  display: flex;
+  min-height: 36px;
+  padding-right: 46px;
+  position: relative;
+  text-decoration: none;
+}
+.industry-card__title span:after {
+  background-color: #fff;
+  background-image: url(https://5065855.fs1.hubspotusercontent-na1.net/hubfs/5065855/system/icons/arrow_right_blue.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 15px 11px;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 36px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.2s ease-in;
+  width: 36px;
+}
+.industry-card__link:hover .industry-card__visual img {
+  transform: scale(1.1);
+}
+.industry-card__link:hover .industry-card__title span:after {
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .m-industry-cards__heading {
+    margin: 0 0 2.3rem;
+  }
+  .m-industry-cards .row {
+    margin-left: -0.45rem;
+    margin-right: -0.45rem;
+  }
+  .industry-card {
+    margin-bottom: 0.9rem;
+    padding-left: 0.45rem;
+    padding-right: 0.45rem;
+  }
+}

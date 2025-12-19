@@ -1,0 +1,20 @@
+.m-header-text__title {
+  margin: 0;
+}
+.m-header-text__title + .m-header-text__content {
+  margin-top: 1.25rem;
+}
+.m-header-text__tags {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 2rem -0.7rem 0;
+}
+.m-header-text__tag {
+  margin: 0 0.7rem 1rem;
+}
+@media only screen and (min-width: 992px) {
+  .m-header-text__tags {
+    margin: 2.9rem -0.7rem -1rem;
+  }
+}

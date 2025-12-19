@@ -1,0 +1,12 @@
+.tag-label {
+  background-color: #94c120;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1.083;
+  padding: 4px 6px;
+  text-transform: uppercase;
+}

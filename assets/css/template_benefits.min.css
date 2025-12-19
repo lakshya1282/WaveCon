@@ -1,0 +1,30 @@
+.m-benefits__title {
+  margin: 0;
+}
+.m-benefits__text {
+  margin-top: 1.1rem;
+}
+.benefit-card {
+  margin-bottom: 1.25rem;
+}
+.benefit-card__title {
+  color: #3e3e3e;
+  margin: 0 0 0.5rem;
+}
+.benefit-card .link_arrow-right-small {
+  margin-top: 1rem;
+}
+.m-benefits__cards {
+  margin-top: 2rem;
+}
+@media only screen and (min-width: 768px) {
+  .m-benefits__intro {
+    margin-bottom: 2rem;
+  }
+  .m-benefits__cards {
+    margin-top: 0;
+  }
+  .benefit-card {
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,59 @@
+.m-company-logos__text,
+.m-company-logos__title {
+  text-align: center;
+}
+.m-company-logos__title {
+  margin: 0 0 0.5rem;
+  position: relative;
+}
+.m-company-logos__title:before {
+  background: url(https://5065855.fs1.hubspotusercontent-na1.net/hubfs/5065855/system/icons/leaf.svg)
+    50% / cover;
+  content: "";
+  display: block;
+  height: 16px;
+  margin: 0 auto 0.5rem;
+  width: 36px;
+}
+.m-company-logos__link {
+  margin-top: 1.1rem;
+  text-align: center;
+}
+.m-company-logos__list {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  margin-top: 2.3rem;
+}
+.m-company-logos__item {
+  flex: 0 0 33%;
+  height: 39px;
+  margin-bottom: 2rem;
+  max-width: 33%;
+  padding: 0 0.5rem;
+}
+.m-company-logos__item a,
+.m-company-logos__item span {
+  align-items: center;
+  display: flex;
+  height: 39px;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+}
+.m-company-logos__item img {
+  display: block;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+@media only screen and (min-width: 768px) {
+  .m-company-logos__item {
+    flex: 0 0 16%;
+    max-width: 16%;
+  }
+}

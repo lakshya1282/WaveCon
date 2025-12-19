@@ -1,0 +1,72 @@
+.blog-card a {
+  border: 1px solid #dadada;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: block;
+  text-decoration: none;
+}
+.blog-card a,
+.blog-card a:hover {
+  color: #3e3e3e;
+}
+.blog-card a:hover .blog-card__visual img {
+  transform: scale(1.1);
+}
+.blog-card a:hover .link_arrow-right-small:after {
+  transform: translateX(5px);
+}
+.blog-card h4 {
+  color: #3e3e3e;
+  margin: 0 0 1rem;
+}
+.blog-card p {
+  margin: 0 0 1.4rem;
+}
+.blog-card__visual {
+  height: 227px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.blog-card__visual img {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  transition: transform 0.3s linear;
+  width: 100%;
+}
+.blog-card__inner {
+  padding: 2rem;
+}
+@media only screen and (min-width: 768px) {
+  .blog-card__inner {
+    padding: 2.3rem 2.5rem 2.8rem;
+  }
+}
+.m-blog-cards__heading:before {
+  background: url(https://5065855.fs1.hubspotusercontent-na1.net/hubfs/5065855/system/icons/leaf.svg)
+    50% / cover;
+  content: "";
+  display: block;
+  height: 16px;
+  margin-bottom: 1rem;
+  width: 36px;
+}
+.m-blog-cards__heading h2 {
+  margin: 0 0 1rem;
+}
+.m-blog-cards .blog-card {
+  margin-top: 2rem;
+}
+.m-blog-cards .blog-card a {
+  height: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .m-blog-cards__heading h2 {
+    max-width: 100%;
+    width: 329px;
+  }
+  .m-blog-cards .blog-card {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,62 @@
+.m-text-and-media-simple__visual-column {
+  order: 2;
+}
+.m-text-and-media-simple__visual {
+  overflow: hidden;
+  padding-bottom: 66.3650075415%;
+  position: relative;
+  width: 100%;
+}
+.m-text-and-media-simple__visual img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  width: 100%;
+}
+.m-text-and-media-simple__content-column {
+  margin-bottom: 2rem;
+}
+.m-text-and-media-simple__title {
+  margin: 0 0 0.5rem;
+}
+.m-text-and-media-simple__title:before {
+  background: url(https://5065855.fs1.hubspotusercontent-na1.net/hubfs/5065855/system/icons/leaf.svg)
+    50% / cover;
+  content: "";
+  display: block;
+  height: 16px;
+  margin-bottom: 1rem;
+  width: 36px;
+}
+.m-text-and-media-simple__visual-link {
+  display: block;
+  position: relative;
+}
+.m-text-and-media-simple__visual-link .play-icon {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+@media only screen and (min-width: 992px) {
+  .m-text-and-media-simple__text {
+    max-width: 92%;
+  }
+  .m-text-and-media-simple__visual-column {
+    order: 0;
+  }
+  .m-text-and-media-simple__visual-column--right {
+    display: flex;
+    justify-content: flex-end;
+    order: 2;
+  }
+  .m-text-and-media-simple__visual-wrapper {
+    max-width: 663px;
+    width: 100%;
+  }
+  .m-text-and-media-simple__content-column {
+    margin-bottom: 0;
+  }
+}

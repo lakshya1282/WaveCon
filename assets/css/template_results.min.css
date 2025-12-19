@@ -1,0 +1,47 @@
+.m-results__title {
+  margin: 0;
+  text-align: center;
+}
+.result-card {
+  margin-top: 2rem;
+}
+.result-card__inner {
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  padding: 1.6rem 2rem 2rem;
+}
+.result-card__title {
+  align-items: center;
+  color: #3e3e3e;
+  display: flex;
+  margin: 0 0 0.9rem;
+}
+.result-card__title:before {
+  background: #f0f2f5
+    url(https://5065855.fs1.hubspotusercontent-na1.net/hubfs/5065855/system/icons/leaf.svg)
+    50%/25px 11px no-repeat;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 46px;
+  margin-right: 13px;
+  width: 46px;
+}
+.result-card .link_arrow-right-small {
+  margin-top: 1.7rem;
+}
+@media only screen and (min-width: 768px) {
+  .m-results__title {
+    margin: 0 0 2.25rem;
+  }
+  .result-card {
+    margin-top: 2.5rem;
+  }
+  .result-card:first-child,
+  .result-card:nth-child(2) {
+    margin-top: 0;
+  }
+  .result-card__inner {
+    padding: 2rem 2.5rem 2.5rem;
+  }
+}

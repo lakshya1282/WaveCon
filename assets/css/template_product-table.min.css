@@ -1,0 +1,32 @@
+.m-product-table__title {
+  margin: 0 0 1.85rem;
+}
+.m-product-table__table {
+  margin-top: 3.75rem;
+}
+.m-product-table__table table {
+  margin: 0;
+}
+.m-product-table__table-wrapper {
+  position: relative;
+}
+.m-product-table__table-wrapper:after {
+  background-color: rgba(62, 62, 62, 0.5);
+  background-image: url(https://5065855.fs1.hubspotusercontent-na1.net/hubfs/5065855/system/icons/arrow_right_white.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 15px 11px;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+  z-index: 1;
+}
+@media only screen and (min-width: 768px) {
+  .m-product-table__table-wrapper:after {
+    display: none;
+  }
+}
